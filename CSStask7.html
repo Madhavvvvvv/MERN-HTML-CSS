@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+* {  margin: 0 }
+.outer-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color:rgb(174, 13, 86);
+
+}
+.inner-box{
+    background-color:rgb(135, 12, 68);
+    padding:20px;
+    width: 600px;
+    position: fixed;
+}
+.center{
+   margin-top: 3%;
+   margin-left: 15%;
+   margin-bottom: 2%;
+   color: white;
+}
+
+.button{
+    height: 10%; 
+    width: 73%; 
+    margin-left: 15%;
+    font-weight:bolder;
+}
+
+
+
+    </style>
+    <title>Task12</title>
+    
+</head>
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+        <p>
+            <table class="center">
+                <tr border="0" cellpadding="0" cellspacing="0" height="20" width="30%">
+                <td>Name:</td>
+                <td>
+                <input type="text" placeholder="your name" size="30">
+                </td> 
+                </tr>
+                <tr>
+                <td>Email:</td>
+                <td>
+                <input type="text" placeholder="your email" size="30">
+                </td>
+                </tr>
+                <tr>
+                <td>Password:</td>
+                <td>
+                <input type="password" size="30">
+                </td>
+                </tr>
+                <tr>
+                <td>Phone Number:</td>
+                <td>
+                <input type="text" size="30">    
+                </td>
+                </tr>
+                <tr>
+                <td>Gender:</td>   
+                <td> 
+                <input type="radio"/>Male:
+                <input type="radio"/>Female:
+                <input type="radio"/>Other:
+                </td> 
+                </tr>
+                <tr>
+                <td>language</td>
+                <td>
+                <select>
+                    <option value="">Select language</option>
+                    <option value="English">English</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Arabic">Arabic</option>
+                    <option value="Russian">Russian</option>
+                </select>
+                </td>
+                </tr>
+                <tr>
+                <td>Zip Code:</td>
+                <td>
+                <input type="text" size="30">
+                </td>
+                </tr>
+                <tr>
+                <td>About:</td>
+                <td>
+                <textarea  name="comments" rows="3" cols="29" placeholder="Write about yourself..." ></textarea> 
+                </td>
+                </tr>
+                </table>
+                <br>
+                <input class="button" type="button" value="Register">
+        </p>
+        </div>
+    </div>
+</body>
+</html>
